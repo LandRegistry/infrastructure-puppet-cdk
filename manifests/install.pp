@@ -4,4 +4,5 @@ class devkit::install {
   include devkit::python
   include devkit::java
   include devkit::go
+  include devkit::docker
 }

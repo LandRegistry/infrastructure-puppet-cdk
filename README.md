@@ -29,6 +29,11 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Java 1.7.0 (OpenJDK)
 * Java 1.7.0 Development Kit
 
+#### Docker
+
+* Docker 0.11
+* Fig
+
 #### Other
 
 * Go 1.2.2

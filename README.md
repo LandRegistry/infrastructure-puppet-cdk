@@ -1,0 +1,3 @@
+# coredevelopmentkit #
+
+This is the coredevelopmentkit module. It provides...

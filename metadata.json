@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "checksums": {
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "dc7d33550338a5e07ca636b9cb874252",
+    "Modulefile": "bada7a9cfa5a5af62b926d1c870b2a5d",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests/init.pp": "00cc53f2940266c48a02b07368e7ddde",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.markdown": "7ab4919282e3f56298362845791498ed"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "",
+  "name": "cs104bf-coredevelopmentkit",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}

@@ -10,6 +10,6 @@
 #
 # Sample Usage:
 #
-class coredevelopmentkit {
-  include coredevelopmentkit::install
+class devkit {
+  include devkit::install
 }

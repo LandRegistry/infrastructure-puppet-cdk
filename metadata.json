@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Ben Fairless",
   "checksums": {
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
     "manifests/init.pp": "dc7d33550338a5e07ca636b9cb874252",
@@ -11,11 +11,11 @@
   },
   "dependencies": [],
   "description": "",
-  "license": "",
-  "name": "cs104bf-coredevelopmentkit",
+  "license": "MIT License",
+  "name": "LandRegistry-devkit",
   "project_page": "",
-  "source": "",
+  "source": "https://github.com/LandRegistry/infrastructure-puppet-devkit",
   "summary": "",
   "types": [],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }

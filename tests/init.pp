@@ -1,1 +1,1 @@
-class { 'coredevelopmentkit': }
+class { 'devkit': }

@@ -1,4 +1,4 @@
-class coredevelopmentkit::python {
+class devkit::python {
   # Python 2.7.5
   package { 'python':
     ensure   => latest,

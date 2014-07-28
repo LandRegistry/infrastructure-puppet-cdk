@@ -1,4 +1,4 @@
-class coredevelopmentkit::versioncontrol {
+class devkit::versioncontrol {
   package { 'git':
     ensure   => latest,
     provider => yum

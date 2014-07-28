@@ -1,4 +1,4 @@
-class coredevelopmentkit::java {
+class devkit::java {
   # Java 1.7.0
   package { 'java-1.7.0-openjdk':
     ensure => latest,

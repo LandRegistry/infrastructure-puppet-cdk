@@ -1,7 +1,7 @@
-infrastructure-puppet-cdk
+infrastructure-puppet-devkit
 =============================
 
-This is the landregistry-coredevelopmentkit Puppet module. It provides a basic multi-language development environment.
+This is the LandRegistry-devkit Puppet module. It provides a basic multi-language development environment.
 
 #### Version Control
 
@@ -38,7 +38,7 @@ This is the landregistry-coredevelopmentkit Puppet module. It provides a basic m
 ### Usage
 
 ```puppet
-  class { 'coredevelopmentkit': }
+  class { 'devkit': }
 ```
 
 *Currently the CDK does not have any optional parameters.*

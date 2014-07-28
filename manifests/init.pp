@@ -11,5 +11,5 @@
 # Sample Usage:
 #
 class coredevelopmentkit {
-
+  include coredevelopmentkit::install
 }

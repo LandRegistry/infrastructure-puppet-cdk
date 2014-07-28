@@ -1,4 +1,5 @@
 # infrastructure-puppet-coredevelopmentkit .gitignore
+.vagrant/
 
 # Linux ignores
 *~

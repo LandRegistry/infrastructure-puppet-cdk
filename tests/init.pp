@@ -1,1 +1,1 @@
-include coredevelopmentkit
+class { 'coredevelopmentkit': }

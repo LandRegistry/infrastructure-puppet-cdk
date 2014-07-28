@@ -1,7 +1,7 @@
-infrastructure-puppet-coredevelopmentkit
+infrastructure-puppet-cdk
 =============================
 
-This is the landregistry-coredevelopmentkit Puppet module. It provides a broad multi-language development environment.
+This is the landregistry-coredevelopmentkit Puppet module. It provides a basic multi-language development environment.
 
 #### Version Control
 
@@ -33,3 +33,15 @@ This is the landregistry-coredevelopmentkit Puppet module. It provides a broad m
 
 * Go 1.2.2
 * NodeJS 0.10.29
+
+
+### Usage
+
+```puppet
+  class { 'coredevelopmentkit': }
+```
+
+*Currently the CDK does not have any optional parameters.*
+
+### Contributing
+Suggestions for improvement are greatly appreciated, in the form of pull requests and general suggestions. Just raise an issue to request additional utilities.

@@ -5,4 +5,5 @@ class devkit::install {
   include devkit::java
   include devkit::go
   include devkit::docker
+  include devkit::optional
 }

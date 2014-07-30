@@ -39,6 +39,12 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Go 1.2.2
 * NodeJS 0.10.29
 
+#### Optional
+
+* PostgreSQL 9.3 + GIS
+* Redis
+* RabbitMQ
+
 
 ### Usage
 
@@ -46,7 +52,14 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
   class { 'devkit': }
 ```
 
-*Currently the CDK does not have any optional parameters.*
+Include optional packages:
+```puppet
+  class { 'devkit': 
+    optional => true
+  }
+```
+
+*Currently the development kit does not have any optional parameters.*
 
 ### Contributing
 Suggestions for improvement are greatly appreciated, in the form of pull requests and general suggestions. Just raise an issue to request additional utilities.

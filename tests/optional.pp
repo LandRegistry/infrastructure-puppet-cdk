@@ -1,0 +1,3 @@
+class { 'devkit':
+  optional => true
+}

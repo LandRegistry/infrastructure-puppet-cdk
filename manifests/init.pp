@@ -2,14 +2,8 @@
 #
 # This module manages coredevelopmentkit
 #
-# Parameters: none
-#
-# Actions:
-#
-# Requires: see Modulefile
-#
-# Sample Usage:
-#
-class devkit {
+class devkit (
+  $optional = false
+){
   include devkit::install
 }

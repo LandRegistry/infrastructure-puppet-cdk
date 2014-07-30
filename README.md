@@ -42,6 +42,7 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 #### Optional
 
 * PostgreSQL 9.3 + GIS
+* Elasticsearch 1.3
 * Redis
 * RabbitMQ
 

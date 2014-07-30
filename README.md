@@ -60,7 +60,5 @@ Include optional packages:
   }
 ```
 
-*Currently the development kit does not have any optional parameters.*
-
 ### Contributing
 Suggestions for improvement are greatly appreciated, in the form of pull requests and general suggestions. Just raise an issue to request additional utilities.

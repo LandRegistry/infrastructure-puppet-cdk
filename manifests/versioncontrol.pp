@@ -7,10 +7,6 @@ class devkit::versioncontrol {
     ensure   => latest,
     provider => yum
   }
-  package { 'cvs':
-    ensure   => latest,
-    provider => yum
-  }
   package { 'bzr':
     ensure   => latest,
     provider => yum

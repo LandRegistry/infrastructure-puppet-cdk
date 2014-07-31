@@ -7,14 +7,13 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 
 * Git
 * Subversion
-* Concurrent Versions System (CVS)
 * Bazaar
 * Mercurial
 
 #### Python
 
 * Python 2.7.5
-* Pip
+* PIP
 * Virtualenv
 
 #### Ruby
@@ -23,6 +22,8 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Gems
 * Bundler
 * Rake
+* Sass
+* Cucumber
 
 #### Java
 

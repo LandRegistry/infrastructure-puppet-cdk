@@ -1,6 +1,5 @@
-class devkit::nodejs {
-  package { 'nodejs':
-    ensure   => latest,
-    provider => yum
+class devkit::nodejs inherits devkit::params {
+  package { $nodejs:
+    ensure   => latest
   }
 }

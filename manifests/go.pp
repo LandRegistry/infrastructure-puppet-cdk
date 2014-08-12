@@ -1,7 +1,6 @@
-class devkit::go {
+class devkit::go inherits devkit::params {
   # Go 1.2.2
-  package { 'golang':
-    ensure => latest,
-    provider => yum
+  package { $go:
+    ensure => latest
   }
 }

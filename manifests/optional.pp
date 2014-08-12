@@ -1,4 +1,4 @@
-class devkit::optional {
+class devkit::optional inherits devkit::params {
   include devkit::optional::postgres
   include devkit::optional::elasticsearch
   # Redis 2.8.13

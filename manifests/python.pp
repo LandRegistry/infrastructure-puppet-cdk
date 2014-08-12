@@ -1,14 +1,16 @@
-class devkit::python {
-  # Python 2.7.5
-  package { 'python':
-    ensure   => latest,
-    provider => yum
+class devkit::python inherits devkit::params {
+  # Python 2.7
+  package { $python:
+    ensure   => latest
   }
-  package { 'python-pip':
-    ensure   => latest,
-    provider => yum
+  package { $pythonpip:
+    ensure   => latest
   }
   package { 'virtualenv':
+    ensure   => latest,
+    provider => pip
+  }
+  package { 'virtualenvwrapper':
     ensure   => latest,
     provider => pip
   }

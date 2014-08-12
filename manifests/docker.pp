@@ -1,14 +1,9 @@
-class devkit::docker {
-  package { 'docker':
-    ensure   => latest,
-    provider => yum
+class devkit::docker inherits devkit::params {
+  package { $docker:
+    ensure   => latest
   }
   package { 'fig':
     ensure   => latest,
     provider => pip
-  }
-  service { 'docker':
-    ensure   => running,
-    enable   => true
   }
 }

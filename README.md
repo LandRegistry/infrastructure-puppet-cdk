@@ -18,13 +18,14 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 
 #### Python
 
-* Python 2.7.5
+* Python 2.7
 * PIP
 * Virtualenv
+* Virtualenvwrapper
 
 #### Ruby
 
-* Ruby 2.0.0
+* Ruby 2.0
 * Gems
 * Bundler
 * Rake
@@ -41,10 +42,14 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Docker 0.11
 * Fig
 
+#### NodeJS
+
+* NodeJS
+* NPM
+
 #### Other
 
 * Go 1.2.2
-* NodeJS 0.10.29
 
 #### Optional
 

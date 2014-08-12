@@ -1,22 +1,14 @@
-class devkit::versioncontrol {
-  package { 'git':
-    ensure   => latest,
-    provider => yum
+class devkit::versioncontrol inherits devkit::params {
+  package { $git:
+    ensure   => latest
   }
-  package { 'subversion':
-    ensure   => latest,
-    provider => yum
+  package { $subversion:
+    ensure   => latest
   }
-  package { 'cvs':
-    ensure   => latest,
-    provider => yum
+  package { $bazaar:
+    ensure   => latest
   }
-  package { 'bzr':
-    ensure   => latest,
-    provider => yum
-  }
-  package { 'mercurial':
-    ensure   => latest,
-    provider => yum
+  package { $mercurial:
+    ensure   => latest
   }
 }

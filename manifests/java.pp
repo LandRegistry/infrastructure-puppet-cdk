@@ -1,11 +1,6 @@
-class devkit::java {
+class devkit::java inherits devkit::params {
   # Java 1.7.0
-  package { 'java-1.7.0-openjdk':
-    ensure => latest,
-    provider => yum
-  }
-  package { 'java-1.7.0-openjdk-devel':
-    ensure => latest,
-    provider => yum
+  package { $java:
+    ensure => latest
   }
 }

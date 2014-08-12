@@ -7,14 +7,13 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 
 * Git
 * Subversion
-* Concurrent Versions System (CVS)
 * Bazaar
 * Mercurial
 
 #### Python
 
 * Python 2.7.5
-* Pip
+* PIP
 * Virtualenv
 
 #### Ruby
@@ -23,6 +22,8 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Gems
 * Bundler
 * Rake
+* Sass
+* Cucumber
 
 #### Java
 
@@ -39,6 +40,13 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Go 1.2.2
 * NodeJS 0.10.29
 
+#### Optional
+
+* PostgreSQL 9.3 + GIS
+* Elasticsearch 1.3
+* Redis
+* RabbitMQ
+
 
 ### Usage
 
@@ -46,7 +54,12 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
   class { 'devkit': }
 ```
 
-*Currently the CDK does not have any optional parameters.*
+Include optional packages:
+```puppet
+  class { 'devkit': 
+    optional => true
+  }
+```
 
 ### Contributing
 Suggestions for improvement are greatly appreciated, in the form of pull requests and general suggestions. Just raise an issue to request additional utilities.

@@ -1,12 +1,13 @@
-class devkit::ruby {
+class devkit::ruby inherits devkit::params {
   # Ruby 2.0.0
-  package { 'ruby':
-    ensure   => latest,
-    provider => yum
+  package { [$ruby, $rubydev]:
+    ensure   => latest
   }
-  package { 'rubygems':
-    ensure   => latest,
-    provider => yum
+  package { $gcc:
+    ensure   => latest
+  }
+  package { $rubygems:
+    ensure   => latest
   }
   package { 'bundler':
     ensure   => latest,
@@ -15,5 +16,14 @@ class devkit::ruby {
   package { 'rake':
     ensure   => latest,
     provider => gem
+  }
+  package { 'sass':
+    ensure   => latest,
+    provider => gem
+  }
+  package { 'cucumber':
+    ensure   => latest,
+    provider => gem,
+    require  => Package[$gcc]
   }
 }

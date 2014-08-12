@@ -3,6 +3,12 @@ infrastructure-puppet-devkit
 
 This is the LandRegistry-devkit Puppet module. It provides a basic multi-language development environment.
 
+##### Supported Operating Systems
+* Ubuntu 14.04 LTS Trusty Tahr
+* CentOS 7
+* Red Hat Enterprise Linux 7
+* Scientific Linux 7
+
 #### Version Control
 
 * Git
@@ -12,13 +18,14 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 
 #### Python
 
-* Python 2.7.5
+* Python 2.7
 * PIP
 * Virtualenv
+* Virtualenvwrapper
 
 #### Ruby
 
-* Ruby 2.0.0
+* Ruby 2.0
 * Gems
 * Bundler
 * Rake
@@ -35,10 +42,14 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Docker 0.11
 * Fig
 
+#### NodeJS
+
+* NodeJS
+* NPM
+
 #### Other
 
 * Go 1.2.2
-* NodeJS 0.10.29
 
 #### Optional
 
@@ -60,6 +71,7 @@ Include optional packages:
     optional => true
   }
 ```
+*Currently optional packages are only supported on EL7, not on Ubuntu.*
 
 ### Contributing
 Suggestions for improvement are greatly appreciated, in the form of pull requests and general suggestions. Just raise an issue to request additional utilities.

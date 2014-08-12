@@ -3,6 +3,12 @@ infrastructure-puppet-devkit
 
 This is the LandRegistry-devkit Puppet module. It provides a basic multi-language development environment.
 
+##### Supported Operating Systems
+* Ubuntu 14.04 LTS Trusty Tahr
+* CentOS 7
+* Red Hat Enterprise Linux 7
+* Scientific Linux 7
+
 #### Version Control
 
 * Git
@@ -60,6 +66,7 @@ Include optional packages:
     optional => true
   }
 ```
+*Currently optional packages are only supported on EL7, not on Ubuntu.*
 
 ### Contributing
 Suggestions for improvement are greatly appreciated, in the form of pull requests and general suggestions. Just raise an issue to request additional utilities.

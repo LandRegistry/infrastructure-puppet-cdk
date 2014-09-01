@@ -3,6 +3,8 @@ infrastructure-puppet-devkit
 
 This is the LandRegistry-devkit Puppet module. It provides a basic multi-language development environment.
 
+[![Build Status](https://travis-ci.org/LandRegistry/infrastructure-puppet-devkit.svg?branch=master)](https://travis-ci.org/LandRegistry/infrastructure-puppet-devkit)
+
 ##### Supported Operating Systems
 * Ubuntu 14.04 LTS Trusty Tahr
 * CentOS 7

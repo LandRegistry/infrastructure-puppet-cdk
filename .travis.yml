@@ -1,0 +1,7 @@
+language: ruby
+
+install:
+- apt-get install -y puppet
+
+script:
+- puppet apply tests/optional.pp

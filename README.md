@@ -33,6 +33,7 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Rake
 * Sass
 * Cucumber
+* Foreman
 
 #### Java
 
@@ -56,10 +57,9 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 #### Optional
 
 * PostgreSQL 9.3 + GIS
-* Elasticsearch 1.3
 * Redis
 * RabbitMQ
-
+* Nginx
 
 ### Usage
 
@@ -69,11 +69,11 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 
 Include optional packages:
 ```puppet
-  class { 'devkit': 
+  class { 'devkit':
     optional => true
   }
 ```
-*Currently optional packages are only supported on EL7, not on Ubuntu.*
+*Currently optional packages are only supported on Ubuntu.*
 
 ### Contributing
 Suggestions for improvement are greatly appreciated, in the form of pull requests and general suggestions. Just raise an issue to request additional utilities.

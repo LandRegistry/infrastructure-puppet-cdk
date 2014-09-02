@@ -26,4 +26,8 @@ class devkit::ruby inherits devkit::params {
     provider => gem,
     require  => Package[$gcc]
   }
+  package { 'foreman':
+    ensure   => latest,
+    provider => gem
+  }
 }

@@ -1,8 +1,9 @@
 class devkit::params {
-  
+
   case $::osfamily {
     'Debian': {
-      $python     = 'python'
+      $python     = 'python2.7'
+      $pythondev  = 'python2.7-dev'
       $pythonpip  = 'python-pip'
       $ruby       = 'ruby'
       $rubydev    = 'ruby-dev'
@@ -17,9 +18,12 @@ class devkit::params {
       $go         = 'golang'
       $nodejs     = 'nodejs'
       $npm        = 'npm'
+      $nginx      = 'nginx'
+      $rabbitmq   = 'rabbitmq-server'
     }
     'RedHat': {
       $python     = 'python'
+      $pythondev  = 'python-devel'
       $pythonpip  = 'python-pip'
       $ruby       = 'ruby'
       $rubydev    = 'ruby-devel'
@@ -34,6 +38,8 @@ class devkit::params {
       $go         = 'golang'
       $nodejs     = 'nodejs'
       $npm        = 'npm'
+      $nginx      = 'nginx'
+      $rabbitmq   = 'rabbitmq-server'
     }
   }
 }

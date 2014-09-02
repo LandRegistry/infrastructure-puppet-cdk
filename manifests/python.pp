@@ -1,6 +1,6 @@
 class devkit::python inherits devkit::params {
   # Python 2.7
-  package { $python:
+  package { [$python, $pythondev]:
     ensure   => latest
   }
   package { $pythonpip:

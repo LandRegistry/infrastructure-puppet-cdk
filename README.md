@@ -60,6 +60,7 @@ This is the LandRegistry-devkit Puppet module. It provides a basic multi-languag
 * Redis
 * RabbitMQ
 * Nginx
+* Elasticsearch
 
 ### Usage
 

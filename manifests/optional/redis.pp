@@ -1,21 +1,11 @@
 class devkit::optional::redis {
-  case $::osfamily {
-    'Debian': {
 
-      package { "redis-server":
-        ensure => latest
-      }
-      package { "redis-tools":
-        ensure => latest
-      }
+  package { "redis-server":
+    ensure => latest
+  }
 
-    }
-    'RedHat': {
-
-      package { "redis":
-        ensure => latest
-      }
-
-    }
+  package { "redis-tools":
+    ensure => latest
+  }
 }
-}
+  

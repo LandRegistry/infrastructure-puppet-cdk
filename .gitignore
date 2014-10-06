@@ -1,5 +1,6 @@
-# infrastructure-puppet-coredevelopmentkit .gitignore
+# infrastructure-puppet-devkit .gitignore
 .vagrant/
+Gemfile.lock
 
 # Linux ignores
 *~

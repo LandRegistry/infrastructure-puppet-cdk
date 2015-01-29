@@ -34,7 +34,7 @@ class devkit::params {
       $subversion = 'subversion'
       $bazaar     = 'bzr'
       $mercurial  = 'mercurial'
-      $java       = 'java-1.7.0-oracle'
+      $java       = 'java-1.7.0-openjdk.x86_64'
       $go         = 'golang'
       $nodejs     = 'nodejs'
       $npm        = 'npm'
